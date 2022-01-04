@@ -69,7 +69,6 @@ namespace Asteroids
                 Instantiate(_asteroidPrefab, position, Quaternion.identity);
             }
         }
-
         private static SpawnLocation GetSpawnLocation()
         {
             var roll = Random.Range(0, 4);

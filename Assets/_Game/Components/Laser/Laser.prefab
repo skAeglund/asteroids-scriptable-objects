@@ -80,6 +80,7 @@ GameObject:
   - component: {fileID: 3978147046847384719}
   - component: {fileID: 892718435696536658}
   - component: {fileID: 2848251788891171716}
+  - component: {fileID: 3089402254830778600}
   m_Layer: 0
   m_Name: Laser_Sprite
   m_TagString: Laser
@@ -113,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1494e5ca4ea41309c15087d2a3a3507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _toDestroy: {fileID: 5567069101288871502}
+  _toDestroy: {fileID: 0}
 --- !u!212 &892718435696536658
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -191,3 +192,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 2.56}
   m_EdgeRadius: 0
+--- !u!114 &3089402254830778600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433375001349643316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd46228b36ce1a44d9c4d0e8b1332869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onBecameInvisible: {fileID: 11400000, guid: a592e064ba500f34ea0a2173d9c012e5, type: 2}
+  _maxWrapCount: 1
+  _objectToDestroy: {fileID: 5567069101288871502}
